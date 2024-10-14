@@ -8,35 +8,6 @@
     name="description"
     content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}"
   />
-  {{ partial "partials/style.html" . }} {{ $favicoPath := printf "assets/%s/"
-  $.Site.Params.favicoPath }}
-
-  <!-- Favicon Links -->
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="{{ $favicoPath | relURL }}apple-touch-icon.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="{{ $favicoPath | relURL }}favicon-32x32.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="{{ $favicoPath | relURL }}favicon-16x16.png"
-  />
-  <link rel="manifest" href="{{ $favicoPath | relURL }}site.webmanifest" />
-  <!-- <link -->
-  <!--   rel="mask-icon" -->
-  <!--   href="{{ $favicoPath | relURL }}safari-pinned-tab.svg" -->
-  <!--   color="#5bbad5" -->
-  <!-- /> -->
-  <link rel="shortcut icon" href="{{ $favicoPath | relURL }}favicon.ico" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
+  {{ partial "partials/style.html" . }}
 </head>
 
