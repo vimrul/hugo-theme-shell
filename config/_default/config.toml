@@ -26,7 +26,7 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "jane"
+  userName = "vimrul"
   pcName = "laptop"
   workDir = "mydir"
   profile = "profile.txt"
