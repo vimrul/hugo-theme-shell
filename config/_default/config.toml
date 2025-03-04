@@ -7,7 +7,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "Jane Doe's Portfolio!"
+  description = "Imrul's Portfolio!"
   [Params.Terminal]
   # Note: color scheme
   # Note: You can choose between
